@@ -132,6 +132,7 @@ public class BaseFrame extends JFrame {
 		menuBar.setBounds(0, 0, 600, 30);
 		add(menuBar);
 
+		//点串口设置时，显示dialog,设置了芯片型号，波特率
 		serialportSet.addActionListener(new SerialportConnectListener());
 
 		clearView.addActionListener(new ActionListener() {
@@ -324,22 +325,24 @@ public class BaseFrame extends JFrame {
 						// 2530芯片、7688芯片波特率57600
 						// 通信质量测试，7681芯片波特率为57600
 						// 2630芯片、7681芯片波特率为115200
+						int baud = 0;
 						if (DeviceConstant.Chip._2530.equals(currentChip)
 								|| DeviceConstant.Chip._7688.equals(currentChip)
 								|| (Constant.TestItem.RSSI_TEST.equals(currentTestItem)
 										&& DeviceConstant.Chip._7681.equals(currentChip))
 								|| (Constant.TestItem.DEVICE_RESET.equals(currentTestItem)
 										&& DeviceConstant.Chip._7681.equals(currentChip))) {
-							serialPort = SerialPortManager.openPort(commName, DeviceConstant.BAUDRATE_57600);
 							LogUtils.d("波特率：", "57600");
+							baud = DeviceConstant.BAUDRATE_57600;
 						}
 						if (DeviceConstant.Chip._2630.equals(currentChip)
 								|| (!Constant.TestItem.RSSI_TEST.equals(currentTestItem)
 										&& !Constant.TestItem.DEVICE_RESET.equals(currentTestItem)
 										&& DeviceConstant.Chip._7681.equals(currentChip))) {
-							serialPort = SerialPortManager.openPort(commName, DeviceConstant.BAUDRATE_115200);
+							baud = DeviceConstant.BAUDRATE_115200;
 							LogUtils.d("波特率：", "115200");
 						}
+						serialPort = SerialPortManager.openPort(commName, baud);
 						if (serialPort != null) {
 							setSerialportStatus(true, commName);
 						}
