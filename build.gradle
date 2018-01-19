@@ -1,0 +1,22 @@
+group 'factorytest'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile fileTree(dir:'libs',include:['*.jar'])
+
+
+
+}
+tasks.withType(JavaCompile) {
+options.encoding = "UTF-8"
+}

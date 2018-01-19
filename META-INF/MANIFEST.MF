@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: RXTXcomm.jar log4j-1.2.17.jar AbsoluteLayout.jar okhttp-3.
+ 3.1.jar okio-1.7.0.jar swing-layout-1.0.3.jar poi-3.9.jar gson-2.2.2.
+ jar
+Main-Class: com.vision.factorytest.ui.MainFrame
+
