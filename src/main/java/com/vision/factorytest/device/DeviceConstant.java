@@ -32,6 +32,10 @@ public class DeviceConstant {
 	 */
 	public static class Chip {
 
+		public static final String _1310_gateway = "1310网关";/**网关 same as 2530*/
+		
+		public static final String _1310_device = "1310设备";/**设备 same as 2630*/
+		
 		public static final String _2530 = "2530";
 
 		public static final String _2630 = "2630";
@@ -115,6 +119,10 @@ public class DeviceConstant {
 		 * 设备升级
 		 */
 		public static final byte[] UPGRADE = new byte[] { 0x06 };
+		/**
+		 * 返回APP
+		 */
+		public static final byte[] GOAPP = new byte[] { 0x02 };
 	}
 
 	/**

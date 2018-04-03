@@ -3,6 +3,13 @@ package com.vision.factorytest.net;
 import java.io.IOException;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.vision.factorytest.Constant;
+import com.vision.factorytest.manager.ReceiveMessageManager;
+import com.vision.factorytest.utils.ShowUtils;
+
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.FormBody.Builder;
@@ -11,13 +18,8 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-import com.vision.factorytest.Constant;
-import com.vision.factorytest.manager.ReceiveMessageManager;
-import com.vision.factorytest.utils.LogUtils;
-import com.vision.factorytest.utils.ShowUtils;
-
 public class HttpChannel {
-
+	private static final Logger log = LoggerFactory.getLogger(HttpChannel.class);
 	/**
 	 * 使用http发送消息（get方式）
 	 * 
@@ -41,7 +43,7 @@ public class HttpChannel {
 
 			@Override
 			public void onFailure(Call arg0, IOException arg1) {
-				LogUtils.d("http返回", "网络异常" + arg1.getMessage());
+				log.info("http返回{}", "网络异常" + arg1.getMessage());
 				ShowUtils.errorMessage("网络异常" + arg1.getMessage());
 			}
 
@@ -50,7 +52,7 @@ public class HttpChannel {
 				if (arg1.code() == 200) {
 					ReceiveMessageManager.defaultManage().HttpResponse(arg1.body().string(), urlOrigin);
 				} else {
-					LogUtils.d("http返回", "网络异常" + arg1.code());
+					log.info("http返回{}", "网络异常" + arg1.code());
 					ShowUtils.errorMessage("网络异常" + arg1.code());
 				}
 			}
@@ -74,7 +76,7 @@ public class HttpChannel {
 
 			@Override
 			public void onFailure(Call arg0, IOException arg1) {
-				LogUtils.d("http返回", "网络异常" + arg1.getMessage());
+				log.info("http返回{}", "网络异常" + arg1.getMessage());
 				ShowUtils.errorMessage("网络异常" + arg1.getMessage());
 			}
 
@@ -83,7 +85,7 @@ public class HttpChannel {
 				if (arg1.code() == 200) {
 					ReceiveMessageManager.defaultManage().HttpResponse(arg1.body().string(), urlOrigin);
 				} else {
-					LogUtils.d("http返回", "网络异常" + arg1.code());
+					log.info("http返回{}", "网络异常" + arg1.code());
 					ShowUtils.errorMessage("网络异常" + arg1.code());
 				}
 			}

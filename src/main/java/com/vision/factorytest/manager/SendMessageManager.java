@@ -7,6 +7,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.vision.factorytest.Constant;
 import com.vision.factorytest.GlobalVariable;
 import com.vision.factorytest.device.DeviceConstant;
@@ -25,7 +28,7 @@ import com.vision.factorytest.utils.XModem;
  * @author yangle
  */
 public class SendMessageManager {
-
+	private static final Logger log = LoggerFactory.getLogger(SendMessageManager.class);
 	private static SendMessageManager sendMessageManager;
 
 	/**
@@ -191,6 +194,7 @@ public class SendMessageManager {
 	public void uploadTestResult(String mac, boolean isSuccess, int type, String chip) {
 		BaseFrame frame = BaseFrame.getFrame();
 		frame.macInputField.setText("");
+		log.info("Empty the text field controller.");
 		// Map<String, String> map = new HashMap<String, String>();
 		// map.put("mac", mac);
 		// map.put("chip", GlobalVariable.currentChip);

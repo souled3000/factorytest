@@ -5,13 +5,16 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * 时间工具
  * 
  * @author yangle
  */
 public class TimeUtils {
-
+	private static final Logger log = LoggerFactory.getLogger(TimeUtils.class);
 	private static Timer timer;
 
 	/**
@@ -47,7 +50,7 @@ public class TimeUtils {
 	 *            回调接口
 	 */
 	public static void startTimer(long delay, final IOvertimeExecute iOvertimeExecute) {
-		LogUtils.d("定时器", "启动计时器");
+		log.info("定时器{}", "启动计时器");
 
 		stopTimer();
 		timer = new Timer();
@@ -70,7 +73,7 @@ public class TimeUtils {
 	 *            回调接口
 	 */
 	public static void startTimer(long delay, long period, final IOvertimeExecute iOvertimeExecute) {
-		LogUtils.d("定时器", "启动计时器");
+		log.info("定时器{}", "启动计时器");
 
 		stopTimer();
 		timer = new Timer();
@@ -86,7 +89,7 @@ public class TimeUtils {
 	 * 停止计时器
 	 */
 	public static void stopTimer() {
-		LogUtils.d("定时器", "关闭计时器");
+		log.info("定时器{}", "关闭计时器");
 
 		if (timer != null) {
 			timer.cancel();

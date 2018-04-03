@@ -1,6 +1,7 @@
 package com.vision.factorytest.utils;
 
 import java.io.File;
+import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +10,31 @@ import com.vision.factorytest.GlobalVariable;
 import com.vision.factorytest.device.DeviceConstant;
 
 public class CommUtils {
+	public static byte[] read6D64(InputStream is) throws Exception {
+		byte[] w = null;
+		while (true) {
+			int l = is.read();
+			if (l != 0x6D) {
+				continue;
+			} else {
+				l = is.read();
+				if (l != 0x64) {
+					continue;
+				} else {
+					l = is.read();
+					byte[] r = new byte[l];
+					is.read(r);
+					w = new byte[l + 3];
+					w[0] = 0x6d;
+					w[1] = 0x64;
+					w[2] = (byte) l;
+					System.arraycopy(r, 0, w, 3, l);
+					break;
+				}
+			}
+		}
+		return w;
+	}
 
 	/**
 	 * 获取License的地址路径
@@ -20,8 +46,10 @@ public class CommUtils {
 	public static String buildLicensePath(String mac) {
 		// 芯片型号
 		String chip = GlobalVariable.currentChip;
+		if (DeviceConstant.Chip._1310_device.equals(chip)) {
+			return "./license/1310/" + mac + "-AES.bin";
 
-		if (DeviceConstant.Chip._2630.equals(chip)) {
+		} else if (DeviceConstant.Chip._2630.equals(chip)) {
 			return "./license/2630/" + mac + "-AES.bin";
 
 		} else if (DeviceConstant.Chip._7681.equals(chip) || DeviceConstant.Chip._7688.equals(chip)) {
@@ -40,7 +68,10 @@ public class CommUtils {
 	 */
 	public static String buildUpgradePath() {
 		String chip = GlobalVariable.currentChip;
-		if (DeviceConstant.Chip._2530.equals(chip)) {
+		if (DeviceConstant.Chip._1310_device.equals(chip)) {
+			return "./upgrade/update_1310.bin";
+
+		} else if (DeviceConstant.Chip._2530.equals(chip)) {
 			return "./upgrade/update_2530.bin";
 
 		} else if (DeviceConstant.Chip._2630.equals(chip)) {
@@ -86,8 +117,7 @@ public class CommUtils {
 
 		for (int i = 0; i < 3; i++) {
 			String order = "iwpriv ra0 e2p ";
-			order += (i * 2 + 4) + "=" + macArray[i * 4 + 2] + macArray[i * 4 + 3] + macArray[i * 4]
-					+ macArray[i * 4 + 1] + "\r\n";
+			order += (i * 2 + 4) + "=" + macArray[i * 4 + 2] + macArray[i * 4 + 3] + macArray[i * 4] + macArray[i * 4 + 1] + "\r\n";
 			list.add(order.getBytes());
 		}
 
@@ -119,8 +149,10 @@ public class CommUtils {
 		// 芯片型号
 		String chip = GlobalVariable.currentChip;
 		File file = null;
+		if (DeviceConstant.Chip._1310_device.equals(chip)) {
+			file = new File("./license/1310/", mac + "-AES.bin");
 
-		if (DeviceConstant.Chip._2630.equals(chip)) {
+		} else if (DeviceConstant.Chip._2630.equals(chip)) {
 			file = new File("./license/2630/", mac + "-AES.bin");
 
 		} else if (DeviceConstant.Chip._7681.equals(chip) || DeviceConstant.Chip._7688.equals(chip)) {

@@ -1,14 +1,5 @@
 package com.vision.factorytest.manager;
 
-import gnu.io.CommPort;
-import gnu.io.CommPortIdentifier;
-import gnu.io.NoSuchPortException;
-import gnu.io.PortInUseException;
-import gnu.io.SerialPort;
-import gnu.io.SerialPortEvent;
-import gnu.io.SerialPortEventListener;
-import gnu.io.UnsupportedCommOperationException;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -16,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.TooManyListenersException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.vision.factorytest.exception.NoSuchPort;
 import com.vision.factorytest.exception.NotASerialPort;
@@ -28,8 +22,16 @@ import com.vision.factorytest.exception.SerialPortParameterFailure;
 import com.vision.factorytest.exception.TooManyListeners;
 import com.vision.factorytest.utils.ArrayUtils;
 import com.vision.factorytest.utils.ByteUtils;
-import com.vision.factorytest.utils.LogUtils;
 import com.vision.factorytest.utils.ShowUtils;
+
+import gnu.io.CommPort;
+import gnu.io.CommPortIdentifier;
+import gnu.io.NoSuchPortException;
+import gnu.io.PortInUseException;
+import gnu.io.SerialPort;
+import gnu.io.SerialPortEvent;
+import gnu.io.SerialPortEventListener;
+import gnu.io.UnsupportedCommOperationException;
 
 /**
  * 串口管理
@@ -37,7 +39,7 @@ import com.vision.factorytest.utils.ShowUtils;
  * @author yangle
  */
 public class SerialPortManager {
-
+	private static final Logger log = LoggerFactory.getLogger(SerialPortManager.class);
 	public static boolean isRefuseReadData = false;
 
 	/**
@@ -123,7 +125,7 @@ public class SerialPortManager {
 			out = serialPort.getOutputStream();
 			out.write(order);
 			out.flush();
-			LogUtils.d("向串口发送数据", ByteUtils.byteArrayToHexString(order) + "___" + Arrays.toString(order));
+			log.info("向串口发送数据{}", ByteUtils.byteArrayToHexString(order) + "___" + Arrays.toString(order));
 		} catch (IOException e) {
 			new SendDataToSerialPortFailure().printStackTrace();
 		} finally {

@@ -1,8 +1,10 @@
 package com.vision.factorytest.ui;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.vision.factorytest.GlobalVariable;
 import com.vision.factorytest.manager.SendMessageManager;
-import com.vision.factorytest.utils.LogUtils;
 import com.vision.factorytest.utils.TestResultAnalyze;
 
 /**
@@ -12,7 +14,7 @@ import com.vision.factorytest.utils.TestResultAnalyze;
  */
 @SuppressWarnings("all")
 public class RSSITestFrame extends BaseFrame {
-
+	private static final Logger log = LoggerFactory.getLogger(RSSITestFrame.class);
 	public RSSITestFrame() {
 		initFrame();
 		initMenu();
@@ -22,7 +24,7 @@ public class RSSITestFrame extends BaseFrame {
 	}
 
 	public void RSSITestResult(String chip) {
-		LogUtils.d("通讯质量测试数据", GlobalVariable.RSSITestData.toString());
+		log.info("通讯质量测试数据{}", GlobalVariable.RSSITestData.toString());
 
 		// 设备MAC
 		String mac = macInputField.getText();

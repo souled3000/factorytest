@@ -2,8 +2,12 @@ package com.vision.factorytest.utils;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.vision.factorytest.GlobalVariable;
 import com.vision.factorytest.device.DeviceConstant;
+import com.vision.factorytest.manager.ReceiveMessageManager;
 
 /**
  * 测试结果分析
@@ -11,6 +15,7 @@ import com.vision.factorytest.device.DeviceConstant;
  * @author yangle
  */
 public class TestResultAnalyze {
+	private static final Logger log = LoggerFactory.getLogger(TestResultAnalyze.class);
 
 	/**
 	 * 通讯质量测试
@@ -56,39 +61,28 @@ public class TestResultAnalyze {
 	 */
 	public static String writeFactoryDistrictAuth(byte[] data, String mac) {
 		StringBuffer stringBuffer = new StringBuffer();
-		byte licenseAuth = data[8];
-		byte flashAuth = data[9];
+		byte pass = data[8];
 		byte[] macAuth = new byte[8];
-		System.arraycopy(data, 10, macAuth, 0, macAuth.length);
+		System.arraycopy(data, 9, macAuth, 0, macAuth.length);
 		boolean isLicenseAuthOK;
-		boolean isFlashAuthOK;
 		boolean isMacAuthOK;
-
 		if (ByteUtils.byteArrayToHexString(macAuth).equals(mac)) {
-			stringBuffer.append("MAC地址写入成功\r\n");
-			isLicenseAuthOK = true;
-		} else {
-			stringBuffer.append("MAC地址写入失败\r\n");
-			isLicenseAuthOK = false;
-		}
-
-		if (0x01 == licenseAuth) {
-			stringBuffer.append("License认证成功\r\n");
-			isFlashAuthOK = true;
-		} else {
-			stringBuffer.append("License认证失败\r\n");
-			isFlashAuthOK = false;
-		}
-
-		if (0x01 == flashAuth) {
-			stringBuffer.append("Flash认证成功\r\n");
+			stringBuffer.append("确认MAC地址正确写入\r\n");
 			isMacAuthOK = true;
 		} else {
-			stringBuffer.append("Flash认证失败\r\n");
+			stringBuffer.append("确认MAC地址错误写入\r\n");
 			isMacAuthOK = false;
 		}
-
-		if (isLicenseAuthOK && isFlashAuthOK && isMacAuthOK) {
+		log.info("mac:{},mac:{},{}", ByteUtils.byteArrayToHexString(macAuth), mac);
+		if (0x01 == pass) {
+			stringBuffer.append("License认证成功\r\n");
+			isLicenseAuthOK = true;
+		} else {
+			stringBuffer.append("License认证失败\r\n");
+			isLicenseAuthOK = false;
+		}
+		log.info("LicenceAuthOK ?:{}", pass);
+		if (isLicenseAuthOK && isMacAuthOK) {
 			stringBuffer.append("\r\n写模块工厂区成功");
 		} else {
 			stringBuffer.append("\r\n写模块工厂区失败");

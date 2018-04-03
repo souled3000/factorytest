@@ -3,8 +3,11 @@ package com.vision.factorytest.device;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.vision.factorytest.utils.ByteUtils;
-import com.vision.factorytest.utils.LogUtils;
+
 
 /**
  * 建立串口发送的数据
@@ -12,7 +15,7 @@ import com.vision.factorytest.utils.LogUtils;
  * @author yangle
  */
 public class SerialPortData {
-
+	private static final Logger log = LoggerFactory.getLogger(SerialPortData.class);
 	/**
 	 * 建立串口发送的数据（无数据内容）
 	 * 
@@ -28,7 +31,7 @@ public class SerialPortData {
 		byte[] b = { 0x01, 0x00, headOpcode, (byte) 0xDF };
 		data.put(b);
 		data.put(check(data.array(), 2, data.array().length));
-		LogUtils.d("串口发送数据", ByteUtils.byteArrayToHexString(data.array()));
+		log.info("串口发送数据", ByteUtils.byteArrayToHexString(data.array()));
 		return data.array();
 	}
 
@@ -49,7 +52,7 @@ public class SerialPortData {
 		data.put(b);
 		data.put(headData);
 		data.put(check(data.array(), 2, data.array().length));
-		LogUtils.d("串口发送数据", ByteUtils.byteArrayToHexString(data.array()));
+		log.info("串口发送数据{}", ByteUtils.byteArrayToHexString(data.array()));
 		return data.array();
 	}
 

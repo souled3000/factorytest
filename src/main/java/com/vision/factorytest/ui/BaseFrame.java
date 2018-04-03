@@ -1,7 +1,5 @@
 package com.vision.factorytest.ui;
 
-import gnu.io.SerialPort;
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GraphicsEnvironment;
@@ -30,6 +28,9 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.plaf.FontUIResource;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.vision.factorytest.Constant;
 import com.vision.factorytest.GlobalVariable;
 import com.vision.factorytest.device.DeviceConstant;
@@ -37,8 +38,9 @@ import com.vision.factorytest.manager.ReceiveMessageManager;
 import com.vision.factorytest.manager.SerialPortManager;
 import com.vision.factorytest.utils.CommUtils;
 import com.vision.factorytest.utils.FormCheckUtils;
-import com.vision.factorytest.utils.LogUtils;
 import com.vision.factorytest.utils.ShowUtils;
+
+import gnu.io.SerialPort;
 
 /**
  * Frame基类
@@ -47,7 +49,7 @@ import com.vision.factorytest.utils.ShowUtils;
  */
 @SuppressWarnings("all")
 public class BaseFrame extends JFrame {
-
+	private static final Logger log = LoggerFactory.getLogger(BaseFrame.class);
 	/**
 	 * 程序界面宽度
 	 */
@@ -132,7 +134,7 @@ public class BaseFrame extends JFrame {
 		menuBar.setBounds(0, 0, 600, 30);
 		add(menuBar);
 
-		//点串口设置时，显示dialog,设置了芯片型号，波特率
+		// 点串口设置时，显示dialog,设置了芯片型号，波特率
 		serialportSet.addActionListener(new SerialportConnectListener());
 
 		clearView.addActionListener(new ActionListener() {
@@ -199,8 +201,11 @@ public class BaseFrame extends JFrame {
 			chipChoice.addItem(DeviceConstant.Chip._2630);
 			chipChoice.addItem(DeviceConstant.Chip._7681);
 			chipChoice.addItem(DeviceConstant.Chip._7688);
+			chipChoice.addItem(DeviceConstant.Chip._1310_device);
 		}
-
+		if (Constant.TestItem.RSSI_TEST.equals(GlobalVariable.currentTestItem)) {
+			chipChoice.addItem(DeviceConstant.Chip._1310_gateway);
+		}
 		chipChoice.addActionListener(new ActionListener() {
 
 			@Override
@@ -228,18 +233,14 @@ public class BaseFrame extends JFrame {
 						// 2530芯片、7688芯片波特率57600
 						// 通信质量测试，7681芯片波特率为57600
 						// 2630芯片、7681芯片波特率为115200
-						if (DeviceConstant.Chip._2530.equals(currentChip)
-								|| DeviceConstant.Chip._7688.equals(currentChip)
-								|| (Constant.TestItem.RSSI_TEST.equals(currentTestItem)
-										&& DeviceConstant.Chip._7681.equals(currentChip))) {
+						if (DeviceConstant.Chip._1310_gateway.equals(currentChip) || DeviceConstant.Chip._2530.equals(currentChip) || DeviceConstant.Chip._7688.equals(currentChip)
+								|| (Constant.TestItem.RSSI_TEST.equals(currentTestItem) && DeviceConstant.Chip._7681.equals(currentChip))) {
 							serialPort = SerialPortManager.openPort(commName, DeviceConstant.BAUDRATE_57600);
-							LogUtils.d("波特率：", "57600");
+							log.info("波特率：{}", "57600");
 						}
-						if (DeviceConstant.Chip._2630.equals(currentChip)
-								|| (!Constant.TestItem.RSSI_TEST.equals(currentTestItem)
-										&& DeviceConstant.Chip._7681.equals(currentChip))) {
+						if (DeviceConstant.Chip._1310_device.equals(currentChip) || DeviceConstant.Chip._2630.equals(currentChip) || (!Constant.TestItem.RSSI_TEST.equals(currentTestItem) && DeviceConstant.Chip._7681.equals(currentChip))) {
 							serialPort = SerialPortManager.openPort(commName, DeviceConstant.BAUDRATE_115200);
-							LogUtils.d("波特率：", "115200");
+							log.info("波特率：{}", "115200");
 						}
 						if (serialPort != null) {
 							setSerialportStatus(true, commName);
@@ -272,8 +273,7 @@ public class BaseFrame extends JFrame {
 						new Thread() {
 							public void run() {
 								macInputField.setText(mac);
-								if (Constant.TestItem.WRITE_FACTORY_DISTRICT.equals(GlobalVariable.currentTestItem)
-										&& !CommUtils.isFileExists(mac)) {
+								if (Constant.TestItem.WRITE_FACTORY_DISTRICT.equals(GlobalVariable.currentTestItem) && !CommUtils.isFileExists(mac)) {
 									ShowUtils.errorMessage("未找到License文件");
 								}
 							};
@@ -326,21 +326,16 @@ public class BaseFrame extends JFrame {
 						// 通信质量测试，7681芯片波特率为57600
 						// 2630芯片、7681芯片波特率为115200
 						int baud = 0;
-						if (DeviceConstant.Chip._2530.equals(currentChip)
-								|| DeviceConstant.Chip._7688.equals(currentChip)
-								|| (Constant.TestItem.RSSI_TEST.equals(currentTestItem)
-										&& DeviceConstant.Chip._7681.equals(currentChip))
-								|| (Constant.TestItem.DEVICE_RESET.equals(currentTestItem)
-										&& DeviceConstant.Chip._7681.equals(currentChip))) {
-							LogUtils.d("波特率：", "57600");
+						if ( DeviceConstant.Chip._1310_gateway.equals(currentChip)
+								|| (Constant.TestItem.RSSI_TEST.equals(currentTestItem) && DeviceConstant.Chip._7681.equals(currentChip))
+								|| (Constant.TestItem.DEVICE_RESET.equals(currentTestItem) && DeviceConstant.Chip._7681.equals(currentChip))) {
+							log.info("波特率：{}", "57600");
 							baud = DeviceConstant.BAUDRATE_57600;
 						}
-						if (DeviceConstant.Chip._2630.equals(currentChip)
-								|| (!Constant.TestItem.RSSI_TEST.equals(currentTestItem)
-										&& !Constant.TestItem.DEVICE_RESET.equals(currentTestItem)
-										&& DeviceConstant.Chip._7681.equals(currentChip))) {
+						if (DeviceConstant.Chip._1310_device.equals(currentChip) ||DeviceConstant.Chip._2630.equals(currentChip)
+								|| (!Constant.TestItem.RSSI_TEST.equals(currentTestItem) && !Constant.TestItem.DEVICE_RESET.equals(currentTestItem) && DeviceConstant.Chip._7681.equals(currentChip))) {
 							baud = DeviceConstant.BAUDRATE_115200;
-							LogUtils.d("波特率：", "115200");
+							log.info("波特率：{}", "115200");
 						}
 						serialPort = SerialPortManager.openPort(commName, baud);
 						if (serialPort != null) {

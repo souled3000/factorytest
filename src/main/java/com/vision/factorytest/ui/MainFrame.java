@@ -3,15 +3,15 @@ package com.vision.factorytest.ui;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.*;
 
 import javax.swing.JButton;
 
+import org.apache.log4j.PropertyConfigurator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.vision.factorytest.Constant;
 import com.vision.factorytest.GlobalVariable;
-import com.vision.factorytest.utils.LogUtils;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 /**
  * 程序主界面，用于选择测试内容
@@ -20,7 +20,8 @@ import org.apache.log4j.PropertyConfigurator;
  */
 @SuppressWarnings("all")
 public class MainFrame extends BaseFrame {
-
+	
+	private static final Logger log = LoggerFactory.getLogger(MainFrame.class);
 	private JButton writeFactoryDistrict = new JButton("写模块工厂区");
 	private JButton RSSITest = new JButton("通讯质量测试");
 	private JButton deviceUpgrade = new JButton("模块升级区");
@@ -121,8 +122,8 @@ public class MainFrame extends BaseFrame {
 	}
 
 	public static void main(String args[]) {
-		System.out.println(System.getProperty("java.library.path"));
-		System.out.println(System.getProperty("user.dir") + "\\log4j.properties");
+		log.info(System.getProperty("java.library.path"));
+		log.info(System.getProperty("user.dir") + "\\log4j.properties");
 		PropertyConfigurator.configure(System.getProperty("user.dir") + "\\log4j.properties");
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
