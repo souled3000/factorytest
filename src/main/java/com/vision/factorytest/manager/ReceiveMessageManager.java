@@ -239,51 +239,48 @@ public class ReceiveMessageManager {
 		log.info("{}写模块工厂区开始,RECV:{}", chip, str);
 
 		if (DeviceConstant.Chip._2630.equals(chip) || DeviceConstant.Chip._1310_device.equals(chip)) {
-			if (DeviceConstant.RMessage_2630.POWER_ON.equals(str) && !isReboot) {
+			if (str.contains(DeviceConstant.RMessage_1310.POWER_ON)) {
 				log.info("from 1310：{}", ".");
 				frame.clearDataView();
 				sendMessageManager.sendOrder(serialPort, DeviceConstant.Order_2630.REC);
 				log.info("to 1310：{}", "rec");
 
-			} else if (DeviceConstant.RMessage_2630.REC.equals(str)) {
+			} else if (DeviceConstant.RMessage_1310.REC.equals(str)) {
 				log.info("from 1310：{}", "#");
 				frame.setDataView("进入写模块工厂区模式成功");
 				sendMessageManager.sendOrder(serialPort, DeviceConstant.Order_2630.WRITE_MAC);
 				log.info("to 1310：{}", "0x0d");
 
-			} else if (str.contains(DeviceConstant.RMessage_2630.WRITE_MAC)) {
+			} else if (str.contains(DeviceConstant.RMessage_1310.WRITE_MAC)) {
 				log.info("from 1310：{}", "Write");
 				sendMessageManager.sendData_ZigBee(serialPort, mac);
 				log.info("to 1310：{}", mac);
 
-			} else if (str.contains(DeviceConstant.RMessage_2630.WRITE_MAC_OK)) {
-				log.info("from 1310：{}", "ok!!!");
+			} else if (str.contains(DeviceConstant.RMessage_1310.WRITE_MAC_OK)) {
+				log.info("from 1310：{}", "write mac ok!!!");
 				frame.setDataView("写入MAC地址成功");
 				sendMessageManager.sendOrder(serialPort, DeviceConstant.Order_2630.WRITE_LICENSE);
 				log.info("to 1310：{}", "0x09");
 
-			} else if (str.contains(DeviceConstant.RMessage_2630.WRITE_LICENSE) && isLicenseReady) {
+			} else if (DeviceConstant.RMessage_1310.WRITE_LICENSE.equals(str)) {
 				log.info("from 1310：{}", "C");
 				isLicenseReady = false;
 				sendMessageManager.sendData_ZigBee(serialPort, CommUtils.buildLicensePath(mac));
 				log.info("to 1310：{}", "xmodel");
 
-			} else if (str.contains(DeviceConstant.RMessage_2630.WRITE_LICENSE_OK)) {
+			} else if (str.contains(DeviceConstant.RMessage_1310.WRITE_LICENSE_OK)) {
 				log.info("from 1310：{}", "write licence");
 				frame.setDataView("写入License成功");
 				sendMessageManager.sendOrder(serialPort, DeviceConstant.Order_2630.GOAPP);
 				log.info("to 1310：{}", "0x02");
-			} else if (str.contains(DeviceConstant.RMessage_2630.ZIGBEE_TEST_IS_OK)) {
-				isReboot = true;
-				log.info("to 1310：{}", "GET　DEVICE INFORMATION");
+			} else if (str.contains(DeviceConstant.RMessage_1310.ZIGBEE_TEST_IS_OK)) {
 				sendMessageManager.getDeviceInfo_ZigBee(serialPort);
-
+				log.info("to 1310：{}", "GET　DEVICE INFORMATION");
 			} else if (ByteUtils.byteArrayToHexString(data).contains("6D64")) {
 				// 获取2630设备信息，有时数据分开返回，特殊处理
 
 				String result = TestResultAnalyze.writeFactoryDistrictAuth(data, mac);
 				frame.setDataView(result);
-				isLicenseReady = true;
 				builder.delete(0, builder.length());
 				// 上传测试结果
 				if (!result.contains("失败")) {
@@ -437,7 +434,7 @@ public class ReceiveMessageManager {
 				}
 
 			} else {
-				if (str.contains(DeviceConstant.RMessage_2630.ZIGBEE_TEST_IS_OK)) {
+				if (str.contains(DeviceConstant.RMessage_1310.ZIGBEE_TEST_IS_OK)) {
 					frame.clearDataView();
 					frame.setDataView("进入通讯质量测试模式成功");
 					sendMessageManager.RSSITest_ZigBee(serialPort, chip);
@@ -688,23 +685,23 @@ public class ReceiveMessageManager {
 			}
 
 		} else if (DeviceConstant.Chip._2630.equals(chip) || DeviceConstant.Chip._1310_device.equals(chip)) {
-			if (DeviceConstant.RMessage_2630.POWER_ON.equals(str)) {
+			if (DeviceConstant.RMessage_1310.POWER_ON.equals(str)) {
 				log.info("{} update strated. recv:{}", chip, ".");
 				frame.clearDataView();
 				sendMessageManager.sendOrder(serialPort, DeviceConstant.Order_2630.REC);
 				log.info("to {} :{}", chip, "rec");
-			} else if (DeviceConstant.RMessage_2630.REC.equals(str)) {
+			} else if (DeviceConstant.RMessage_1310.REC.equals(str)) {
 				log.info("from {} : {}", chip, "#");
 				frame.setDataView("进入模块升级模式成功");
 				sendMessageManager.sendOrder(serialPort, DeviceConstant.Order_2630.UPGRADE);
 				log.info("to {} :{}", chip, "0x06");
-			} else if (str.contains(DeviceConstant.RMessage_2630.UPGRADE)) {
+			} else if (str.contains(DeviceConstant.RMessage_1310.UPGRADE)) {
 				log.info("from {} : {}", chip, "recovery");
 				frame.setDataView("正在进行模块升级,请稍等...");
 				sendMessageManager.sendData_ZigBee(serialPort, CommUtils.buildUpgradePath());
 				log.info("to {} :xmodel", chip);
 
-			} else if (str.contains(DeviceConstant.RMessage_2630.UPGRADE_OK)) {
+			} else if (str.contains(DeviceConstant.RMessage_1310.UPGRADE_OK)) {
 				log.info("from {} : {}", chip, "UPDATING OK");
 				frame.setDataView("\r\n模块升级成功");
 				((DeviceUpgradeFrame) frame).setTx(510);

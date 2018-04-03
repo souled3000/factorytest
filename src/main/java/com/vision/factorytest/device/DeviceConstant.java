@@ -128,7 +128,7 @@ public class DeviceConstant {
 	/**
 	 * 2630回复信息
 	 */
-	public static class RMessage_2630 {
+	public static class RMessage_1310 {
 		/**
 		 * 设备通电
 		 */
@@ -152,7 +152,7 @@ public class DeviceConstant {
 		/**
 		 * 写入License成功
 		 */
-		public static final String WRITE_LICENSE_OK = "write license";
+		public static final String WRITE_LICENSE_OK = "write license ok";
 		/**
 		 * 设备重启
 		 */
