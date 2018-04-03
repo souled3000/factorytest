@@ -1,0 +1,311 @@
+[INFO ] 2018-04-03 11:53:35,651 method:com.vision.factorytest.ui.MainFrame.main(MainFrame.java:125)C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\Program Files (x86)\Git\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\TDM-GCC-64\bin;C:\Users\juliana\0001\gradle-2.13\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Users\juliana\AppData\Roaming\npm;C:\Users\juliana\AppData\Local\Microsoft\WindowsApps;C:\Users\juliana\0001\SERVER\apache-maven-3.5.0\bin;C:\GNUstep\bin;C:\GNUstep\GNUstep\System\Tools;;C:\WINDOWS\System32;;.
+[INFO ] 2018-04-03 11:53:35,651 method:com.vision.factorytest.ui.MainFrame.main(MainFrame.java:126)C:\Users\juliana\Downloads\factorytest\log4j.properties
+[INFO ] 2018-04-03 11:54:31,095 method:com.vision.factorytest.ui.BaseFrame$4.actionPerformed(BaseFrame.java:243)波特率：115200
+[INFO ] 2018-04-03 11:55:08,127 method:com.vision.factorytest.ui.BaseFrame$SerialportConnectListener$1.actionPerformed(BaseFrame.java:338)波特率：115200
+[INFO ] 2018-04-03 11:56:27,204 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:27,206 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:27,596 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:27,597 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:27,967 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:27,967 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:28,381 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:28,381 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:28,773 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:28,773 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:29,164 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:29,164 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:29,556 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:29,557 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:29,979 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:29,979 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:30,248 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:30,248 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:30,639 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:30,640 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:31,033 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:31,033 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:31,423 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:31,423 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:31,788 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:31,788 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:32,185 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:32,185 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:32,576 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:32,576 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:32,967 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:32,969 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:33,362 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:33,362 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:33,753 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:33,753 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:34,145 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:34,146 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:34,537 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:34,537 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:34,927 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据
+[INFO ] 2018-04-03 11:56:34,927 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区|1310设备
+[INFO ] 2018-04-03 11:56:50,246 method:com.vision.factorytest.ui.BaseFrame$4.actionPerformed(BaseFrame.java:243)波特率：115200
+[INFO ] 2018-04-03 11:56:59,097 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 11:56:59,105 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区.|1310设备
+[INFO ] 2018-04-03 11:56:59,105 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 11:56:59,106 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 11:56:59,106 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 11:56:59,434 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据23
+[INFO ] 2018-04-03 11:56:59,434 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区#|1310设备
+[INFO ] 2018-04-03 11:56:59,434 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:249)from 1310：#
+[INFO ] 2018-04-03 11:56:59,450 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据0D___[13]
+[INFO ] 2018-04-03 11:56:59,450 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:252)to 1310：0x0d
+[INFO ] 2018-04-03 11:56:59,778 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据5772697465206D61633A0D0A
+[INFO ] 2018-04-03 11:56:59,778 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区Write mac:|1310设备
+[INFO ] 2018-04-03 11:56:59,778 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:255)from 1310：Write
+[INFO ] 2018-04-03 11:56:59,778 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据00002091489838C2___[0, 0, 32, -111, 72, -104, 56, -62]
+[INFO ] 2018-04-03 11:56:59,778 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:257)to 1310：00002091489838C2
+[INFO ] 2018-04-03 11:57:00,122 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206D6163206F6B2121210D0A
+[INFO ] 2018-04-03 11:57:00,122 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区write mac ok!!!|1310设备
+[INFO ] 2018-04-03 11:57:00,122 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:260)from 1310：ok!!!
+[INFO ] 2018-04-03 11:57:00,122 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据09___[9]
+[INFO ] 2018-04-03 11:57:00,122 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:263)to 1310：0x09
+[INFO ] 2018-04-03 11:57:00,464 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E73650D0A43
+[INFO ] 2018-04-03 11:57:00,464 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区write licenseC|1310设备
+[INFO ] 2018-04-03 11:57:00,464 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:266)from 1310：C
+[INFO ] 2018-04-03 11:57:00,479 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:269)to 1310：xmodel
+[INFO ] 2018-04-03 11:57:00,479 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:98)XModemfile open, ready to send
+[INFO ] 2018-04-03 11:57:00,479 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:1___Inverse BlockNumber:-2___Data:9A2D0EFED525EC539800504492A62EEEA8A557ADD322358E8EC5EDBC58924218E70334159716820DB3838D5B0A3C391172A62B9659E27E3E335F0B084856823887D676CD282B590FEBFC571B71AFDC431E13A3E77B94EC0607413223FB604917EF63185154ECBFF1A88E5141F8D7BC53045DA66F4956BC4AAA0486E4970B180C
+[INFO ] 2018-04-03 11:57:00,526 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 11:57:00,526 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:1
+[INFO ] 2018-04-03 11:57:00,526 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:2___Inverse BlockNumber:-3___Data:270A5F9B75EE513382270D9184C3AF6E1B2A70B7F92748CFA1D7D6F3C8B92E8AAB059755DC612A85792D0A06EDDEC4B2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[INFO ] 2018-04-03 11:57:00,557 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 11:57:00,557 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:2
+[INFO ] 2018-04-03 11:57:00,901 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E7365206F6B0D0A
+[INFO ] 2018-04-03 11:57:00,901 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区write license ok|1310设备
+[INFO ] 2018-04-03 11:57:00,901 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:272)from 1310：write licence
+[INFO ] 2018-04-03 11:57:00,917 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据0E___[14]
+[INFO ] 2018-04-03 11:57:00,917 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:275)to 1310：0x0e
+[INFO ] 2018-04-03 11:57:01,245 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据756E6B6E6F776E20636D640D0A23
+[INFO ] 2018-04-03 11:57:01,247 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)写模块工厂区unknown cmd#|1310设备
+[INFO ] 2018-04-03 12:39:29,581 method:com.vision.factorytest.ui.BaseFrame$4.actionPerformed(BaseFrame.java:243)波特率：115200
+[INFO ] 2018-04-03 12:39:57,177 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:39:57,181 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:39:57,182 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:39:57,189 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:39:57,190 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:39:57,252 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据23
+[INFO ] 2018-04-03 12:39:57,252 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:#
+[INFO ] 2018-04-03 12:39:57,252 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:249)from 1310：#
+[INFO ] 2018-04-03 12:39:57,257 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据0D___[13]
+[INFO ] 2018-04-03 12:39:57,257 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:252)to 1310：0x0d
+[INFO ] 2018-04-03 12:39:57,311 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据5772697465206D61633A0D0A
+[INFO ] 2018-04-03 12:39:57,312 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:Write mac:
+[INFO ] 2018-04-03 12:39:57,313 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:255)from 1310：Write
+[INFO ] 2018-04-03 12:39:57,315 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据00002091489838C2___[0, 0, 32, -111, 72, -104, 56, -62]
+[INFO ] 2018-04-03 12:39:57,316 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:257)to 1310：00002091489838C2
+[INFO ] 2018-04-03 12:39:57,376 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206D6163206F6B2121210D0A
+[INFO ] 2018-04-03 12:39:57,377 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write mac ok!!!
+[INFO ] 2018-04-03 12:39:57,377 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:260)from 1310：ok!!!
+[INFO ] 2018-04-03 12:39:57,380 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据09___[9]
+[INFO ] 2018-04-03 12:39:57,381 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:263)to 1310：0x09
+[INFO ] 2018-04-03 12:39:57,439 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E73650D0A43
+[INFO ] 2018-04-03 12:39:57,439 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write licenseC
+[INFO ] 2018-04-03 12:39:57,440 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:266)from 1310：C
+[INFO ] 2018-04-03 12:39:57,450 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:269)to 1310：xmodel
+[INFO ] 2018-04-03 12:39:57,451 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:98)XModemfile open, ready to send
+[INFO ] 2018-04-03 12:39:57,461 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:1___Inverse BlockNumber:-2___Data:9A2D0EFED525EC539800504492A62EEEA8A557ADD322358E8EC5EDBC58924218E70334159716820DB3838D5B0A3C391172A62B9659E27E3E335F0B084856823887D676CD282B590FEBFC571B71AFDC431E13A3E77B94EC0607413223FB604917EF63185154ECBFF1A88E5141F8D7BC53045DA66F4956BC4AAA0486E4970B180C
+[INFO ] 2018-04-03 12:39:57,478 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:39:57,478 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:1
+[INFO ] 2018-04-03 12:39:57,487 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:2___Inverse BlockNumber:-3___Data:270A5F9B75EE513382270D9184C3AF6E1B2A70B7F92748CFA1D7D6F3C8B92E8AAB059755DC612A85792D0A06EDDEC4B2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[INFO ] 2018-04-03 12:39:57,510 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:39:57,510 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:2
+[INFO ] 2018-04-03 12:39:57,567 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E7365206F6B0D0A
+[INFO ] 2018-04-03 12:39:57,567 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write license ok
+[INFO ] 2018-04-03 12:39:57,567 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:272)from 1310：write licence
+[INFO ] 2018-04-03 12:39:57,571 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据02___[2]
+[INFO ] 2018-04-03 12:39:57,572 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:275)to 1310：0x02
+[INFO ] 2018-04-03 12:39:59,015 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据0D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A564953494F4E20536D61727420486F6D652C204C504D205355422D4445564943452073746172742075700D0A4C696E6B206C61796572206164647220203A2030303A30303A32303A39313A34383A39383A33383A43320D0A64657669636520747970652020202020203A20307836443037303630330D0A63686970202020747970652020202020203A20313331300D0A6669726D776172652076657273696F6E203A20313031350D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A7564705F7365727665725F70726F63657373203A206C6963656E6365206F6B210D0A5A49474245452054455354204953204F4B0A
+[INFO ] 2018-04-03 12:39:59,017 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:*************************************************VISION Smart Home, LPM SUB-DEVICE start upLink layer addr  : 00:00:20:91:48:98:38:C2device type      : 0x6D070603chip   type      : 1310firmware version : 1015*************************************************udp_server_process : licence ok!ZIGBEE TEST IS OK
+
+[INFO ] 2018-04-03 12:46:43,814 method:com.vision.factorytest.ui.BaseFrame$4.actionPerformed(BaseFrame.java:243)波特率：115200
+[INFO ] 2018-04-03 12:47:06,315 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:47:06,320 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:47:06,321 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:47:06,325 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:47:06,325 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:47:07,281 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:47:07,282 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:47:07,282 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:47:07,284 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:47:07,284 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:47:08,287 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:47:08,287 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:47:08,288 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:47:08,288 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:47:08,289 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:47:09,672 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据0D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A564953494F4E20536D61727420486F6D652C204C504D205355422D4445564943452073746172742075700D0A4C696E6B206C61796572206164647220203A2030303A30303A32303A39313A34383A39383A33383A43320D0A64657669636520747970652020202020203A20307836443037303630330D0A63686970202020747970652020202020203A20313331300D0A6669726D776172652076657273696F6E203A20313031350D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A7564705F7365727665725F70726F63657373203A206C6963656E6365206F6B210D0A5A49474245452054455354204953204F4B0A
+[INFO ] 2018-04-03 12:47:09,674 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:*************************************************VISION Smart Home, LPM SUB-DEVICE start upLink layer addr  : 00:00:20:91:48:98:38:C2device type      : 0x6D070603chip   type      : 1310firmware version : 1015*************************************************udp_server_process : licence ok!ZIGBEE TEST IS OK
+
+[INFO ] 2018-04-03 12:47:09,675 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:266)from 1310：C
+[INFO ] 2018-04-03 12:47:09,689 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:269)to 1310：xmodel
+[INFO ] 2018-04-03 12:47:09,691 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:98)XModemfile open, ready to send
+[INFO ] 2018-04-03 12:47:09,702 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:1___Inverse BlockNumber:-2___Data:9A2D0EFED525EC539800504492A62EEEA8A557ADD322358E8EC5EDBC58924218E70334159716820DB3838D5B0A3C391172A62B9659E27E3E335F0B084856823887D676CD282B590FEBFC571B71AFDC431E13A3E77B94EC0607413223FB604917EF63185154ECBFF1A88E5141F8D7BC53045DA66F4956BC4AAA0486E4970B180C
+[INFO ] 2018-04-03 12:48:38,812 method:com.vision.factorytest.ui.BaseFrame$4.actionPerformed(BaseFrame.java:243)波特率：115200
+[INFO ] 2018-04-03 12:48:46,865 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据00F6FC
+[INFO ] 2018-04-03 12:48:46,870 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV: ��
+[INFO ] 2018-04-03 12:48:46,932 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据FCFF
+[INFO ] 2018-04-03 12:48:46,932 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:��
+[INFO ] 2018-04-03 12:48:49,626 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据FF
+[INFO ] 2018-04-03 12:48:49,627 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:�
+[INFO ] 2018-04-03 12:48:57,191 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据FC
+[INFO ] 2018-04-03 12:48:57,192 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:�
+[INFO ] 2018-04-03 12:49:02,764 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:49:02,765 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:49:02,766 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:49:02,771 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:49:02,773 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:49:02,834 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据23
+[INFO ] 2018-04-03 12:49:02,835 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:#
+[INFO ] 2018-04-03 12:49:02,841 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:249)from 1310：#
+[INFO ] 2018-04-03 12:49:02,858 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据0D___[13]
+[INFO ] 2018-04-03 12:49:02,859 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:252)to 1310：0x0d
+[INFO ] 2018-04-03 12:49:02,909 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据5772697465206D61633A0D0A
+[INFO ] 2018-04-03 12:49:02,909 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:Write mac:
+[INFO ] 2018-04-03 12:49:02,910 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:255)from 1310：Write
+[INFO ] 2018-04-03 12:49:02,911 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据00002091489838C2___[0, 0, 32, -111, 72, -104, 56, -62]
+[INFO ] 2018-04-03 12:49:02,911 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:257)to 1310：00002091489838C2
+[INFO ] 2018-04-03 12:49:02,971 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206D6163206F6B2121210D0A
+[INFO ] 2018-04-03 12:49:02,971 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write mac ok!!!
+[INFO ] 2018-04-03 12:49:02,972 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:260)from 1310：ok!!!
+[INFO ] 2018-04-03 12:49:02,973 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据09___[9]
+[INFO ] 2018-04-03 12:49:02,974 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:263)to 1310：0x09
+[INFO ] 2018-04-03 12:49:03,019 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E73650D0A43
+[INFO ] 2018-04-03 12:49:03,019 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write licenseC
+[INFO ] 2018-04-03 12:49:03,020 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:266)from 1310：C
+[INFO ] 2018-04-03 12:49:03,027 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:269)to 1310：xmodel
+[INFO ] 2018-04-03 12:49:03,028 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:98)XModemfile open, ready to send
+[INFO ] 2018-04-03 12:49:03,037 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:1___Inverse BlockNumber:-2___Data:9A2D0EFED525EC539800504492A62EEEA8A557ADD322358E8EC5EDBC58924218E70334159716820DB3838D5B0A3C391172A62B9659E27E3E335F0B084856823887D676CD282B590FEBFC571B71AFDC431E13A3E77B94EC0607413223FB604917EF63185154ECBFF1A88E5141F8D7BC53045DA66F4956BC4AAA0486E4970B180C
+[INFO ] 2018-04-03 12:49:03,058 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:49:03,058 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:1
+[INFO ] 2018-04-03 12:49:03,067 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:2___Inverse BlockNumber:-3___Data:270A5F9B75EE513382270D9184C3AF6E1B2A70B7F92748CFA1D7D6F3C8B92E8AAB059755DC612A85792D0A06EDDEC4B2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[INFO ] 2018-04-03 12:49:03,092 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:49:03,092 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:2
+[INFO ] 2018-04-03 12:49:03,148 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E7365206F6B0D0A
+[INFO ] 2018-04-03 12:49:03,148 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write license ok
+[INFO ] 2018-04-03 12:49:03,149 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:272)from 1310：write licence
+[INFO ] 2018-04-03 12:49:03,156 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据02___[2]
+[INFO ] 2018-04-03 12:49:03,156 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:275)to 1310：0x02
+[INFO ] 2018-04-03 12:49:05,621 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:49:05,622 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:49:05,622 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:49:05,626 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:49:05,627 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:49:05,670 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据23
+[INFO ] 2018-04-03 12:49:05,670 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:#
+[INFO ] 2018-04-03 12:49:05,671 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:249)from 1310：#
+[INFO ] 2018-04-03 12:49:05,672 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据0D___[13]
+[INFO ] 2018-04-03 12:49:05,673 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:252)to 1310：0x0d
+[INFO ] 2018-04-03 12:49:05,734 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据5772697465206D61633A0D0A
+[INFO ] 2018-04-03 12:49:05,735 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:Write mac:
+[INFO ] 2018-04-03 12:49:05,736 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:255)from 1310：Write
+[INFO ] 2018-04-03 12:49:05,738 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据00002091489838C2___[0, 0, 32, -111, 72, -104, 56, -62]
+[INFO ] 2018-04-03 12:49:05,739 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:257)to 1310：00002091489838C2
+[INFO ] 2018-04-03 12:49:05,797 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206D6163206F6B2121210D0A
+[INFO ] 2018-04-03 12:49:05,798 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write mac ok!!!
+[INFO ] 2018-04-03 12:49:05,799 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:260)from 1310：ok!!!
+[INFO ] 2018-04-03 12:49:05,803 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据09___[9]
+[INFO ] 2018-04-03 12:49:05,804 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:263)to 1310：0x09
+[INFO ] 2018-04-03 12:49:05,849 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E73650D0A43
+[INFO ] 2018-04-03 12:49:05,849 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write licenseC
+[INFO ] 2018-04-03 12:49:05,849 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:272)from 1310：write licence
+[INFO ] 2018-04-03 12:49:05,850 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据02___[2]
+[INFO ] 2018-04-03 12:49:05,851 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:275)to 1310：0x02
+[INFO ] 2018-04-03 12:49:05,912 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据18796D6F64656D20686561642C2063616E63656C0D0A23
+[INFO ] 2018-04-03 12:49:05,913 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:ymodem head, cancel#
+[INFO ] 2018-04-03 12:49:22,065 method:com.vision.factorytest.ui.BaseFrame$4.actionPerformed(BaseFrame.java:243)波特率：115200
+[INFO ] 2018-04-03 12:49:28,050 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:49:28,052 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:49:28,053 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:49:28,056 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:49:28,057 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:49:28,113 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据23
+[INFO ] 2018-04-03 12:49:28,114 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:#
+[INFO ] 2018-04-03 12:49:28,114 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:249)from 1310：#
+[INFO ] 2018-04-03 12:49:28,129 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据0D___[13]
+[INFO ] 2018-04-03 12:49:28,130 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:252)to 1310：0x0d
+[INFO ] 2018-04-03 12:49:28,178 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据5772697465206D61633A0D0A
+[INFO ] 2018-04-03 12:49:28,178 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:Write mac:
+[INFO ] 2018-04-03 12:49:28,179 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:255)from 1310：Write
+[INFO ] 2018-04-03 12:49:28,181 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据00002091489838C2___[0, 0, 32, -111, 72, -104, 56, -62]
+[INFO ] 2018-04-03 12:49:28,181 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:257)to 1310：00002091489838C2
+[INFO ] 2018-04-03 12:49:28,241 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206D6163206F6B2121210D0A
+[INFO ] 2018-04-03 12:49:28,242 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write mac ok!!!
+[INFO ] 2018-04-03 12:49:28,242 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:260)from 1310：ok!!!
+[INFO ] 2018-04-03 12:49:28,246 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据09___[9]
+[INFO ] 2018-04-03 12:49:28,246 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:263)to 1310：0x09
+[INFO ] 2018-04-03 12:49:28,292 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E73650D0A43
+[INFO ] 2018-04-03 12:49:28,293 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write licenseC
+[INFO ] 2018-04-03 12:49:28,294 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:266)from 1310：C
+[INFO ] 2018-04-03 12:49:28,311 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:269)to 1310：xmodel
+[INFO ] 2018-04-03 12:49:28,313 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:98)XModemfile open, ready to send
+[INFO ] 2018-04-03 12:49:28,322 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:1___Inverse BlockNumber:-2___Data:9A2D0EFED525EC539800504492A62EEEA8A557ADD322358E8EC5EDBC58924218E70334159716820DB3838D5B0A3C391172A62B9659E27E3E335F0B084856823887D676CD282B590FEBFC571B71AFDC431E13A3E77B94EC0607413223FB604917EF63185154ECBFF1A88E5141F8D7BC53045DA66F4956BC4AAA0486E4970B180C
+[INFO ] 2018-04-03 12:49:28,345 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:49:28,345 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:1
+[INFO ] 2018-04-03 12:49:28,353 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:2___Inverse BlockNumber:-3___Data:270A5F9B75EE513382270D9184C3AF6E1B2A70B7F92748CFA1D7D6F3C8B92E8AAB059755DC612A85792D0A06EDDEC4B2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[INFO ] 2018-04-03 12:49:28,377 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:49:28,377 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:2
+[INFO ] 2018-04-03 12:49:28,436 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E7365206F6B0D0A
+[INFO ] 2018-04-03 12:49:28,436 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write license ok
+[INFO ] 2018-04-03 12:49:28,436 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:272)from 1310：write licence
+[INFO ] 2018-04-03 12:49:28,440 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据02___[2]
+[INFO ] 2018-04-03 12:49:28,440 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:275)to 1310：0x02
+[INFO ] 2018-04-03 12:49:29,865 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据0D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A564953494F4E20536D61727420486F6D652C204C504D205355422D4445564943452073746172742075700D0A4C696E6B206C61796572206164647220203A2030303A30303A32303A39313A34383A39383A33383A43320D0A64657669636520747970652020202020203A20307836443037303630330D0A63686970202020747970652020202020203A20313331300D0A6669726D776172652076657273696F6E203A20313031350D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A7564705F7365727665725F70726F63657373203A206C6963656E6365206F6B210D0A5A49474245452054455354204953204F4B0A
+[INFO ] 2018-04-03 12:49:29,866 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:*************************************************VISION Smart Home, LPM SUB-DEVICE start upLink layer addr  : 00:00:20:91:48:98:38:C2device type      : 0x6D070603chip   type      : 1310firmware version : 1015*************************************************udp_server_process : licence ok!ZIGBEE TEST IS OK
+
+[INFO ] 2018-04-03 12:49:29,866 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:278)to 1310：GET　DEVICE INFORMATION
+[INFO ] 2018-04-03 12:49:29,869 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据6D640400000105___[109, 100, 4, 0, 0, 1, 5]
+[INFO ] 2018-04-03 12:49:29,918 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据6D640F000001F7030100002091489838C296
+[INFO ] 2018-04-03 12:49:29,919 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:md  �   �H�8
+[INFO ] 2018-04-03 12:53:31,478 method:com.vision.factorytest.ui.BaseFrame$4.actionPerformed(BaseFrame.java:243)波特率：115200
+[INFO ] 2018-04-03 12:53:37,219 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据2E
+[INFO ] 2018-04-03 12:53:37,223 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:.
+[INFO ] 2018-04-03 12:53:37,224 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:243)from 1310：.
+[INFO ] 2018-04-03 12:53:37,227 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据726563___[114, 101, 99]
+[INFO ] 2018-04-03 12:53:37,227 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:246)to 1310：rec
+[INFO ] 2018-04-03 12:53:37,289 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据23
+[INFO ] 2018-04-03 12:53:37,290 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:#
+[INFO ] 2018-04-03 12:53:37,290 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:249)from 1310：#
+[INFO ] 2018-04-03 12:53:37,309 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据0D___[13]
+[INFO ] 2018-04-03 12:53:37,310 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:252)to 1310：0x0d
+[INFO ] 2018-04-03 12:53:37,365 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据5772697465206D61633A0D0A
+[INFO ] 2018-04-03 12:53:37,365 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:Write mac:
+[INFO ] 2018-04-03 12:53:37,366 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:255)from 1310：Write
+[INFO ] 2018-04-03 12:53:37,367 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据00002091489838C2___[0, 0, 32, -111, 72, -104, 56, -62]
+[INFO ] 2018-04-03 12:53:37,367 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:257)to 1310：00002091489838C2
+[INFO ] 2018-04-03 12:53:37,430 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206D6163206F6B2121210D0A
+[INFO ] 2018-04-03 12:53:37,430 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write mac ok!!!
+[INFO ] 2018-04-03 12:53:37,431 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:260)from 1310：ok!!!
+[INFO ] 2018-04-03 12:53:37,433 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据09___[9]
+[INFO ] 2018-04-03 12:53:37,433 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:263)to 1310：0x09
+[INFO ] 2018-04-03 12:53:37,479 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E73650D0A43
+[INFO ] 2018-04-03 12:53:37,479 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write licenseC
+[INFO ] 2018-04-03 12:53:37,480 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:266)from 1310：C
+[INFO ] 2018-04-03 12:53:37,488 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:269)to 1310：xmodel
+[INFO ] 2018-04-03 12:53:37,490 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:98)XModemfile open, ready to send
+[INFO ] 2018-04-03 12:53:37,499 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:1___Inverse BlockNumber:-2___Data:9A2D0EFED525EC539800504492A62EEEA8A557ADD322358E8EC5EDBC58924218E70334159716820DB3838D5B0A3C391172A62B9659E27E3E335F0B084856823887D676CD282B590FEBFC571B71AFDC431E13A3E77B94EC0607413223FB604917EF63185154ECBFF1A88E5141F8D7BC53045DA66F4956BC4AAA0486E4970B180C
+[INFO ] 2018-04-03 12:53:37,516 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:53:37,516 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:1
+[INFO ] 2018-04-03 12:53:37,525 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:128)XModemSOH:1___BlockNumber:2___Inverse BlockNumber:-3___Data:270A5F9B75EE513382270D9184C3AF6E1B2A70B7F92748CFA1D7D6F3C8B92E8AAB059755DC612A85792D0A06EDDEC4B2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[INFO ] 2018-04-03 12:53:37,548 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:138)XModem有应答___06
+[INFO ] 2018-04-03 12:53:37,549 method:com.vision.factorytest.utils.XModem$1.run(XModem.java:172)XModem发送包数:2
+[INFO ] 2018-04-03 12:53:37,606 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据7772697465206C6963656E7365206F6B0D0A
+[INFO ] 2018-04-03 12:53:37,606 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:write license ok
+[INFO ] 2018-04-03 12:53:37,606 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:272)from 1310：write licence
+[INFO ] 2018-04-03 12:53:37,610 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据02___[2]
+[INFO ] 2018-04-03 12:53:37,610 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:275)to 1310：0x02
+[INFO ] 2018-04-03 12:53:39,049 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据0D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A564953494F4E20536D61727420486F6D652C204C504D205355422D4445564943452073746172742075700D0A4C696E6B206C61796572206164647220203A2030303A30303A32303A39313A34383A39383A33383A43320D0A64657669636520747970652020202020203A20307836443037303630330D0A63686970202020747970652020202020203A20313331300D0A6669726D776172652076657273696F6E203A20313031350D0A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0D0A7564705F7365727665725F70726F63657373203A206C6963656E6365206F6B210D0A5A49474245452054455354204953204F4B0A
+[INFO ] 2018-04-03 12:53:39,050 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:*************************************************VISION Smart Home, LPM SUB-DEVICE start upLink layer addr  : 00:00:20:91:48:98:38:C2device type      : 0x6D070603chip   type      : 1310firmware version : 1015*************************************************udp_server_process : licence ok!ZIGBEE TEST IS OK
+
+[INFO ] 2018-04-03 12:53:39,051 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:278)to 1310：GET　DEVICE INFORMATION
+[INFO ] 2018-04-03 12:53:39,057 method:com.vision.factorytest.manager.SerialPortManager.sendToPort(SerialPortManager.java:128)向串口发送数据6D640400000105___[109, 100, 4, 0, 0, 1, 5]
+[INFO ] 2018-04-03 12:53:39,120 method:com.vision.factorytest.manager.ReceiveMessageManager.SerialPortDataResponse(ReceiveMessageManager.java:79)串口返回数据6D640F000001F7030100002091489838C296
+[INFO ] 2018-04-03 12:53:39,121 method:com.vision.factorytest.manager.ReceiveMessageManager.writeFactoryDistrict(ReceiveMessageManager.java:239)1310设备写模块工厂区开始,RECV:md  �   �H�8
+[INFO ] 2018-04-03 12:53:39,125 method:com.vision.factorytest.utils.TestResultAnalyze.writeFactoryDistrictAuth(TestResultAnalyze.java:76)mac:00002091489838C2,mac:00002091489838C2,{}
+[INFO ] 2018-04-03 12:53:39,126 method:com.vision.factorytest.utils.TestResultAnalyze.writeFactoryDistrictAuth(TestResultAnalyze.java:84)LicenceAuthOK ?:1
+[INFO ] 2018-04-03 12:53:39,136 method:com.vision.factorytest.manager.SendMessageManager.uploadTestResult(SendMessageManager.java:197)Empty the text field controller.
